@@ -3,16 +3,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Центр цифрового образования детей IT-куб – организация, осуществляющая обучение по дополнительным общеразвивающим программам, направленным на интеллектуальное развитие детей и подростков в сфере современных информационных и телекоммуникационных технологий.">
-  <title>IT-CUBE.Новочеркасск - Центр цифрового образования</title>
+  <meta name="description" content="Узнайте расписание занятий в IT-куб, Центре цифрового образования детей. Найдите подходящий для вас график и начните обучение по дополнительным общеразвивающим программам в сфере ИТ.">
+  <title>Расписание занятий в IT-CUBE.Новочеркасск - Центр цифрового образования детей</title>
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/main.min.css?_v=20241015224346">
 </head>
 
 
 <body>
-	<header class="header">
+	<header class="@@class header">
     <div class="container">
   <nav class="navigation">
     <div class="logo" style="position: relative; z-index: 10">
@@ -122,12 +122,12 @@
 	<section class="schedule">
 		<h1 class="title">Расписание</h1>
 		<div class="schedule__wrapper">
-			<!-- <div class="schedule__top">
+			<div class="schedule__top">
 				<div class="schedule-dropdown">
 					<button class="schedule-dropdown__btn">
 						<span class="schedule-dropdown__title">Выберите направление</span>
 						<svg class="schedule-dropdown__icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-							<polyline points="48 24 32 40 16 24" />
+							<polyline points="48 24 32 40 16 24"/>
 						</svg>
 					</button>
 					<ul class="schedule-dropdown__list">
@@ -136,9 +136,15 @@
 						<li class="schedule-dropdown__item" data-schedule="web">Web разработка</li>
 						<li class="schedule-dropdown__item" data-schedule="java">Программирование на Java</li>
 						<li class="schedule-dropdown__item" data-schedule="mobile">Мобильная разработка</li>
+						<li class="schedule-dropdown__item" data-schedule="yandexLyceum">Яндекс Лицей</li>
+						<li class="schedule-dropdown__item" data-schedule="systemAdmin">Системное администрирование</li>
+						<li class="schedule-dropdown__item" data-schedule="bpla">БПЛА</li>
+						<li class="schedule-dropdown__item" data-schedule="kyberClub">КиберКлуб</li>
+						<li class="schedule-dropdown__item" data-schedule="scratch">Scratch разработка</li>
 					</ul>
 				</div>
-			</div> -->
+			</div>
+			<div id="schedule"></div>
 			<div class="schedule-table__wrapper">
 				<table class="schedule-table">
 					<thead>
@@ -152,419 +158,7 @@
 							<th class="schedule-table__day">Воскресенье</th>
 						</tr>
 					</thead>
-					<tbody class="schedule-table__body">
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--red">
-								<span class="schedule-table__text">
-									12:50-14:30<br>
-									Группа: ПШ-5-7б<br>
-									12 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--green">
-								<span class="schedule-table__text">
-									10:15-11:35<br>
-									Группа: мРБ-1<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--blue">
-								<span class="schedule-table__text">
-									09:00-10:40<br>
-									Группа: НПК МР-1б<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--yellow">
-								<span class="schedule-table__text">
-									09:00-10:40<br>
-									Группа: НПК ИСП 1а<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--orange">
-								<span class="schedule-table__text">
-									10:00-11:40<br>
-									Группа: БПЛА-3<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--aqua">
-								<span class="schedule-table__text">
-									11:00-12:40<br>
-									Группа: ТЛ-3-1<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--bisque">
-								<span class="schedule-table__text">
-									12:10-13:50<br>
-									Группа: РБ-1-1<br>
-									11 кабинет
-								</span>
-							</td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--blueviolet">
-								<span class="schedule-table__text">
-									12:50-14:30<br>
-									Группа: ВР-5-6б<br>
-									23 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--orange">
-								<span class="schedule-table__text">
-									11:00-12:40<br>
-									Группа: БПЛА-3<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--fuchsia">
-								<span class="schedule-table__text">
-									09:00-10:40<br>
-									Группа: НПК МР-1а<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--chartreuse">
-								<span class="schedule-table__text">
-									09:00-10:40<br>
-									Группа: НПК ИСП 1б<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--darkcyan">
-								<span class="schedule-table__text">
-									15:30-18:05<br>
-									Группа: СА-2-2<br>
-									12 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--indigo">
-								<span class="schedule-table__text">
-									12:50-14:30<br>
-									Группа: ТЛ-1-1а<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--chocolate">
-								<span class="schedule-table__text">
-									13:00-14:40<br>
-									Группа: Java-1-1<br>
-									23 кабинет
-								</span>
-							</td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--darkgrey">
-								<span class="schedule-table__text">
-									14:40-16:20<br>
-									Группа: СА-1-1<br>
-									12 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--darkcyan">
-								<span class="schedule-table__text">
-									15:30-18:05<br>
-									Группа: СА-2-2<br>
-									12 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--fuchsia">
-								<span class="schedule-table__text">
-									10:50-12:30<br>
-									Группа: НПК МР-1а<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--chartreuse">
-								<span class="schedule-table__text">
-									10:50-12:30<br>
-									Группа: НПК ИСП 1б<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--brown">
-								<span class="schedule-table__text">
-									16:30-18:10<br>
-									Группа: ПС-3-1в<br>
-									24 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--chocolate">
-								<span class="schedule-table__text">
-									13:00-14:40<br>
-									Группа: Java-1-1<br>
-									23 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--lightcoral">
-								<span class="schedule-table__text">
-									14:50-16:30<br>
-									Группа: МП-1-1а<br>
-									23 кабинет
-								</span>
-							</td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--mediumpurple">
-								<span class="schedule-table__text">
-									14:40-16:20<br>
-									Группа: ВР-5-8а<br>
-									23 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--peru">
-								<span class="schedule-table__text">
-									18:20-20:00<br>
-									Группа: ТЛ-1-1б<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--blue">
-								<span class="schedule-table__text">
-									10:50-12:30<br>
-									Группа: НПК МР-1б<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--yellow">
-								<span class="schedule-table__text">
-									10:50-12:30<br>
-									Группа: НПК ИСП 1а<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--darkgrey">
-								<span class="schedule-table__text">
-									18:15-19:55<br>
-									Группа: СА-1-1<br>
-									12 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--coral">
-								<span class="schedule-table__text">
-									13:15-14:55<br>
-									Группа: ЗП-1-2<br>
-									13 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--antiquewhite">
-								<span class="schedule-table__text">
-									16:40-18:20<br>
-									Группа: МП-1-1б<br>
-									23 кабинет
-								</span>
-							</td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--dodgerblue">
-								<span class="schedule-table__text">
-									16:30-18:10<br>
-									Группа: ПС-3-1а<br>
-									23 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--gold">
-								<span class="schedule-table__text">
-									14:40-16:20<br>
-									Группа: БПЛА-1<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--gold">
-								<span class="schedule-table__text">
-									14:40-16:20<br>
-									Группа: БПЛА-1<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--olive">
-								<span class="schedule-table__text">
-									18:20-20:00<br>
-									Группа: ТЛ-2-1<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--peru">
-								<span class="schedule-table__text">
-									14:40-16:20<br>
-									Группа: ТЛ-1-1б<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--coral">
-								<span class="schedule-table__text">
-									17:10-18:40<br>
-									Группа: ЗП-1-2<br>
-									13 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--bisque">
-								<span class="schedule-table__text">
-									15:10-16:50<br>
-									Группа: РБ-1-1<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--aqua">
-								<span class="schedule-table__text">
-									15:20-17:00<br>
-									Группа: ТЛ-3-1<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--darkslategray">
-								<span class="schedule-table__text">
-									18:20-20:00<br>
-									Группа: ВР-2-1<br>
-									24 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--dodgerblue">
-								<span class="schedule-table__text">
-									14:40-16:20<br>
-									Группа: ПС-3-1а<br>
-									24 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--indigo">
-								<span class="schedule-table__text">
-									18:20-20:00<br>
-									Группа: ТЛ-1-1а<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--mediumseagreen">
-								<span class="schedule-table__text">
-									16:30-18:10<br>
-									Группа: БПЛА-2<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--mediumseagreen">
-								<span class="schedule-table__text">
-									16:30-18:10<br>
-									Группа: БПЛА-2<br>
-									22 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--lightcoral">
-								<span class="schedule-table__text">
-									14:50-16:30<br>
-									Группа: МП-1-1а<br>
-									23 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--darksalmon">
-								<span class="schedule-table__text">
-									18:20-20:00<br>
-									Группа: ПС-3-1б<br>
-									23 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--khaki">
-								<span class="schedule-table__text">
-									15:05-16:45<br>
-									Группа: ЗП-1-1а<br>
-									13 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--darksalmon">
-								<span class="schedule-table__text">
-									16:30-18:10<br>
-									Группа: ПС-3-1б<br>
-									24 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--olive">
-								<span class="schedule-table__text">
-									16:30-18:10<br>
-									Группа: ТЛ-2-1<br>
-									11 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--antiquewhite">
-								<span class="schedule-table__text">
-									16:40-18:20<br>
-									Группа: МП-1-1б<br>
-									23 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--darkkhaki">
-								<span class="schedule-table__text">
-									16:55-18:35<br>
-									Группа: ЗП-1-1б<br>
-									13 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-						<tr class="schedule-table__row">
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-							<td class="schedule-table__ceil schedule-table__ceil--brown">
-								<span class="schedule-table__text">
-									18:20-20:00<br>
-									Группа: ПС-3-1в<br>
-									24 кабинет
-								</span>
-							</td>
-							<td class="schedule-table__ceil schedule-table__ceil--none"></td>
-						</tr>
-					</tbody>
+					<tbody class="schedule-table__body"></tbody>
 				</table>
 			</div>
 		</div>
@@ -650,6 +244,6 @@
 	</div>
 </footer>
 
-	<script src="js/main.min.js"></script>
+	<script src="js/main.min.js?_v=20241015224346"></script>
 </body>
 
